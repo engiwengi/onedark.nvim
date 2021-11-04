@@ -143,16 +143,16 @@ hl.treesitter = {
     TSComment = {fg = c.grey, italic = cfg.italic_comment},
     TSConditional = colors.Purple,
     TSConstant = colors.Cyan,
-    TSConstBuiltin = colors.Orange,
+    TSConstBuiltin = colors.Cyan,
     TSConstMacro = colors.Red,
     TSConstructor = {fg = c.yellow, bold = true},
     TSError = colors.Fg,
     TSException = colors.Purple,
-    TSField = colors.Cyan,
+    TSField = colors.Red,
     TSFloat = colors.Orange,
     TSFunction = colors.Blue,
     TSFuncBuiltin = colors.Cyan,
-    TSFuncMacro = colors.Fg,
+    TSFuncMacro = colors.Orange,
     TSInclude = colors.Blue,
     TSKeyword = colors.Purple,
     TSKeywordFunction = {fg = c.purple, bold = true},
@@ -193,8 +193,8 @@ hl.treesitter = {
     TSDanger = colors.Fg,
     TSType = colors.Yellow,
     TSTypeBuiltin = colors.Orange,
-    TSVariable = colors.Fg,
-    TSVariableBuiltin = colors.Red
+    TSVariable = colors.Red,
+    TSVariableBuiltin = colors.Purple
 }
 
 hl.plugins.lsp = {
